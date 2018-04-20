@@ -10,11 +10,12 @@ public class PlayerController : MonoBehaviour
     public float speed = 10.0f;
     public float gravity = -9.8f;
     public float jumpheight = 3.0f;
-    public static int health = 10;
+    public static int health = 100;
     public static bool GreenKey = false;
     public static bool BlueKey = false;
     public static bool RedKey = false;
     public static bool haveKey = false;
+
 
     private CharacterController _charCont;
     
